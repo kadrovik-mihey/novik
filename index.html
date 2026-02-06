@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Александра Донева — Архитектор</title>
@@ -205,5 +206,212 @@
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="./script.js"></script>
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Александра Донева — Архитектор</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="page">
+        <header class="header">
+            <div class="container header__content">
+                <a class="logo" href="#home">Alexandra <span>Doneva</span></a>
+                <nav class="nav">
+                    <a href="#home" data-i18n="nav.home">Главная</a>
+                    <a href="#about" data-i18n="nav.about">Обо мне</a>
+                    <a href="#skills" data-i18n="nav.skills">Скилы</a>
+                    <a href="#projects" data-i18n="nav.projects">Проекты</a>
+                    <a href="#contacts" data-i18n="nav.contact">Контакты</a>
+                </nav>
+                <button class="lang-toggle" id="langToggle" type="button" data-i18n="lang.toggle">EN</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <div class="container hero__content">
+                    <div class="hero__text">
+                        <p class="eyebrow" data-i18n="hero.eyebrow">Архитектор / Градостроитель</p>
+                        <h1 data-i18n="hero.title">Создаю пространства, в которых хочется жить и работать.</h1>
+                        <p class="hero__subtitle" data-i18n="hero.subtitle">Специализируюсь на устойчивой архитектуре, интеллектуальных фасадах и комплексном проектировании общественных пространств.</p>
+                        <div class="hero__actions">
+                            <a class="btn primary" href="#projects" data-i18n="hero.ctaPrimary">Смотреть проекты</a>
+                            <a class="btn ghost" href="#contacts" data-i18n="hero.ctaSecondary">Связаться</a>
+                        </div>
+                        <div class="hero__stats">
+                            <div class="stat">
+                                <span>12+</span>
+                                <p data-i18n="hero.stat1">лет практики</p>
+                            </div>
+                            <div class="stat">
+                                <span>38</span>
+                                <p data-i18n="hero.stat2">реализованных объектов</p>
+                            </div>
+                            <div class="stat">
+                                <span>6</span>
+                                <p data-i18n="hero.stat3">международных наград</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__visual">
+                        <div class="hero__card">
+                            <h3 data-i18n="hero.cardTitle">Актуальный фокус</h3>
+                            <p data-i18n="hero.cardText">Проекты с нулевым углеродным следом и адаптивной городской средой.</p>
+                        </div>
+                        <div class="floating">
+                            <div class="floating__item">BIM</div>
+                            <div class="floating__item">Parametric</div>
+                            <div class="floating__item">Net-zero</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="about">
+                <div class="container about">
+                    <div class="section__head" data-aos="fade-up">
+                        <p class="eyebrow" data-i18n="about.eyebrow">Обо мне</p>
+                        <h2 data-i18n="about.title">Александра Донева — архитектор, который соединяет эстетику и функциональность.</h2>
+                    </div>
+                    <div class="about__grid">
+                        <div class="about__text" data-aos="fade-right">
+                            <p data-i18n="about.text1">Работаю с жилыми комплексами, культурными центрами и офисными пространствами, уделяя внимание свету, экологичности и социальному сценарию.</p>
+                            <p data-i18n="about.text2">Каждый проект строится на исследовании контекста, опросах жителей и моделировании потоков, что помогает формировать живые и устойчивые города.</p>
+                        </div>
+                        <div class="about__panel" data-aos="fade-left">
+                            <h3 data-i18n="about.panelTitle">Образование и подход</h3>
+                            <ul>
+                                <li data-i18n="about.panelItem1">МАРХИ, магистратура «Городские системы»</li>
+                                <li data-i18n="about.panelItem2">Спикер на ARCH Moscow и Urban Forum</li>
+                                <li data-i18n="about.panelItem3">Автор методики «Архитектура диалога»</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--alt" id="skills">
+                <div class="container">
+                    <div class="section__head" data-aos="fade-up">
+                        <p class="eyebrow" data-i18n="skills.eyebrow">Скилы</p>
+                        <h2 data-i18n="skills.title">Инструменты и компетенции для полного цикла проектирования.</h2>
+                        <p class="section__subtitle" data-i18n="skills.subtitle">От предпроектных исследований до авторского надзора и презентаций для инвесторов.</p>
+                    </div>
+                    <div class="skills" data-aos="fade-up">
+                        <div class="skill-card">
+                            <h3 data-i18n="skills.card1Title">Архитектурный дизайн</h3>
+                            <p data-i18n="skills.card1Text">Концепции, мастер-планы, фасады, интерьерные решения.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3 data-i18n="skills.card2Title">BIM и цифровое моделирование</h3>
+                            <p data-i18n="skills.card2Text">Revit, ArchiCAD, Rhino + Grasshopper.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3 data-i18n="skills.card3Title">Устойчивость</h3>
+                            <p data-i18n="skills.card3Text">LEED, BREEAM, энергоэффективные оболочки.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3 data-i18n="skills.card4Title">Проектный менеджмент</h3>
+                            <p data-i18n="skills.card4Text">Сроки, бюджеты, коммуникации с подрядчиками.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3 data-i18n="skills.card5Title">Визуализации</h3>
+                            <p data-i18n="skills.card5Text">Twinmotion, Lumion, Adobe CC.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3 data-i18n="skills.card6Title">Публичные презентации</h3>
+                            <p data-i18n="skills.card6Text">Питчи, конкурсы, переговоры с девелоперами.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <div class="container">
+                    <div class="section__head" data-aos="fade-up">
+                        <p class="eyebrow" data-i18n="projects.eyebrow">Проекты</p>
+                        <h2 data-i18n="projects.title">Кейсы, в которых архитектура говорит с городом.</h2>
+                        <p class="section__subtitle" data-i18n="projects.subtitle">Каждый проект открывается в отдельной вкладке с подробным описанием и галереей.</p>
+                    </div>
+                    <div class="projects">
+                        <article class="project-card" data-aos="fade-up">
+                            <div class="project-card__image" style="background-image: url('image/portfolio_1.jpg');"></div>
+                            <div class="project-card__content">
+                                <h3 data-i18n="projects.card1Title">Дом у озера</h3>
+                                <p data-i18n="projects.card1Text">Жилой комплекс с террасами и каскадными садами на берегу.</p>
+                                <a class="project-link" href="project-lake.html" target="_blank" rel="noopener" data-i18n="projects.cardLink">Открыть проект</a>
+                            </div>
+                        </article>
+                        <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="project-card__image" style="background-image: url('image/portfolio_2.jpg');"></div>
+                            <div class="project-card__content">
+                                <h3 data-i18n="projects.card2Title">Городской музей</h3>
+                                <p data-i18n="projects.card2Text">Мультимедийный центр с общественными площадями и адаптивным фасадом.</p>
+                                <a class="project-link" href="project-museum.html" target="_blank" rel="noopener" data-i18n="projects.cardLink">Открыть проект</a>
+                            </div>
+                        </article>
+                        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="project-card__image" style="background-image: url('image/portfolio_3.jpg');"></div>
+                            <div class="project-card__content">
+                                <h3 data-i18n="projects.card3Title">Эко-офис «Сфера»</h3>
+                                <p data-i18n="projects.card3Text">Гибридное рабочее пространство с зелёными атриумами.</p>
+                                <a class="project-link" href="project-sphere.html" target="_blank" rel="noopener" data-i18n="projects.cardLink">Открыть проект</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--alt" id="contacts">
+                <div class="container contacts">
+                    <div class="section__head" data-aos="fade-up">
+                        <p class="eyebrow" data-i18n="contacts.eyebrow">Контакты</p>
+                        <h2 data-i18n="contacts.title">Давайте обсудим ваш следующий проект.</h2>
+                        <p class="section__subtitle" data-i18n="contacts.subtitle">Открыта к коллаборациям, конкурсам и консультациям.</p>
+                    </div>
+                    <div class="contacts__grid" data-aos="fade-up">
+                        <div class="contact-card">
+                            <h3 data-i18n="contacts.locationTitle">География</h3>
+                            <p data-i18n="contacts.locationValue">Москва — работаю по всему миру онлайн.</p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="contacts.emailTitle">Электронная почта</h3>
+                            <p><a href="mailto:alexandra.doneva@studio.com">alexandra.doneva@studio.com</a></p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="contacts.phoneTitle">Телефон</h3>
+                            <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="contacts.socialTitle">Социальные сети</h3>
+                            <p data-i18n="contacts.socialValue">Behance • Instagram • LinkedIn</p>
+                        </div>
+                    </div>
+                    <div class="contacts__cta" data-aos="zoom-in">
+                        <a class="btn primary" href="mailto:alexandra.doneva@studio.com" data-i18n="contacts.cta">Написать письмо</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__content">
+                <p data-i18n="footer.copy">© 2024 Alexandra Doneva. Архитектура для людей и городов.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Городской музей — Александра Донева</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="project-page">
+    <div id="particles-js"></div>
+    <header class="header">
+        <div class="container header__content">
+            <a class="logo" href="index.html">Alexandra <span>Doneva</span></a>
+            <nav class="nav">
+                <a href="index.html#projects" data-i18n="nav.projects">Проекты</a>
+                <a href="index.html#contacts" data-i18n="nav.contact">Контакты</a>
+            </nav>
+            <button class="lang-toggle" id="langToggle" type="button" data-i18n="lang.toggle">EN</button>
+        </div>
+    </header>
+
+    <main class="project">
+        <section class="project-hero">
+            <div class="container">
+                <a class="back-link" href="index.html#projects" data-i18n="project.back">← Назад к проектам</a>
+                <h1 data-i18n="project.museum.title">Городской музей</h1>
+                <p class="project-hero__subtitle" data-i18n="project.museum.subtitle">Культурный хаб с трансформируемыми залами, общественными террасами и медиа-фасадом.</p>
+            </div>
+        </section>
+
+        <section class="project-details">
+            <div class="container project-details__grid">
+                <div class="project-details__text" data-aos="fade-right">
+                    <h2 data-i18n="project.detailsTitle">Описание проекта</h2>
+                    <p data-i18n="project.museum.description">Архитектура строится вокруг центрального атриума, который становится городской площадью. Фасад покрыт динамическими панелями, реагирующими на события и освещение.</p>
+                    <ul>
+                        <li data-i18n="project.museum.point1">Площадь: 18 500 м²</li>
+                        <li data-i18n="project.museum.point2">Формат: музей + образовательный центр</li>
+                        <li data-i18n="project.museum.point3">Особенность: интерактивный медиа-фасад</li>
+                    </ul>
+                </div>
+                <div class="project-details__card" data-aos="fade-left">
+                    <h3 data-i18n="project.teamTitle">Команда и роль</h3>
+                    <p data-i18n="project.museum.role">Главный архитектор, куратор визуальных сценариев и общественных функций.</p>
+                    <h3 data-i18n="project.toolsTitle">Инструменты</h3>
+                    <p>ArchiCAD, Grasshopper, Twinmotion</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-gallery">
+            <div class="container">
+                <h2 data-i18n="project.galleryTitle">Галерея</h2>
+                <div class="gallery" data-aos="fade-up">
+                    <img src="image/portfolio_2.jpg" alt="Городской музей - визуализация">
+                    <img src="image/portfolio_1.jpg" alt="Городской музей - общественные пространства">
+                    <img src="image/portfolio_3.jpg" alt="Городской музей - фасад">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <p data-i18n="footer.copy">© 2024 Alexandra Doneva. Архитектура для людей и городов.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
